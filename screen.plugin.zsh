@@ -38,8 +38,8 @@ camperdave-sceen-precmd(){
     if [[ $TERM == *screen* ]]; then
         TITLE="${PWD/#$HOME/~}"
         HARD="zsh"
-        camperdave-sceen-set-title $TITLE 
-        camperdave-sceen-set-hard $HARD
+        camperdave-screen-set-title $TITLE 
+        camperdave-screen-set-hard $HARD
     fi
 }
 
